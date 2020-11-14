@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/picture/picture",
+    "pages/joke/joke",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/fei/fei",
+    "pages/joke"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "color": "#000000",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list":[
+      {
+        "text":"笑话",
+        "pagePath":"pages/joke/joke"
+      },
+      {
+        "text":"动图",
+        "pagePath":"pages/picture/picture"
+      }
+    ]
+  }
+}

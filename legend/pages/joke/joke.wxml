@@ -1,0 +1,8 @@
+<!--pages/joke.wxml-->
+<view class="joke">
+  <view>笑话</view>
+</view>
+<view class="joke">
+  <view>笑话</view>
+</view>
+

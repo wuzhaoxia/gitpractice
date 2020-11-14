@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .demo{
+            cursor:pointer
+        }
+    </style>
+</head>
+<body>
+    <div id="example1"></div>
+    <div id="example2"></div>
+    <script src="./js/react.development.js"></script>
+    <script src="./js/react-dom.development.js"></script>
+    <script src="./js/babel.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/prop-types/15.5.10/prop-types.min.js"></script>
+    
+    <!-- <script type="text/babel">
+        class Weather extends React.Component{
+            constructor(a){
+                super(a)
+                this.state = {isHot:false}
+                this.demo = this.demo.bind(this)
+            }
+            demo(){
+                let {isHot} = this.state
+                this.setState({isHot:!isHot})
+            }
+            render(){
+                let {isHot} = this.state
+                return <h1 className="deno" onClick={this.demo}>今天天气很{isHot?'炎热':'凉爽'}</h1>
+            }
+        }
+        ReactDOM.render(<Weather/>,document.getElementById('test1'))
+        
+    </script> -->
+
+    <script type="text/babel">
+        class App extends React.Component{
+            render(){
+                return (
+                    <div>
+                        <h1>simple</h1>
+                        <Add/>
+                        <List/>
+                    </div>
+                )
+            }
+        }
+        class Add extends React.Component{
+            render(){
+                return (
+                    <div>
+                        <input type='text'/>
+                        <button>Add</button>
+                    </div>
+                )
+            }
+        }
+        class List extends React.Component{
+            render(){
+                return (
+                    <div>
+                        <ul>
+                            <li>a</li>
+                            <li>b</li>
+                            <li>c</li>
+                        </ul>
+                    </div>
+                )
+            }
+        }
+        
+        ReactDOM.render(<App/>,document.getElementById('example1npm '))
+    </script>
+</body>
+</html>

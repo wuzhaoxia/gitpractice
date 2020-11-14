@@ -1,0 +1,208 @@
+.bar-wrapper{
+    background-color: rgb(50,50,50);
+    height:50px;
+    width: 100%;
+}
+.top-bar{
+    line-height: 50px;
+    font-size: 16px;
+}
+.top-bar a{
+    display: inline-block;
+    height: 50px;
+}
+.link-bar{
+    float: left;
+    margin-right: 250px;
+    position: relative;
+}
+.link-bar a:link{
+    text-decoration: none;
+    color: rgb(175,175,175);
+}
+.link-bar a:hover{
+    text-decoration: none;
+    color: rgb(255, 255, 255)
+}
+.link-login{
+    float: right;
+    margin-right: 30px;
+}
+.link-login a:link{
+    text-decoration: none;
+    color: rgb(175,175,175);
+}
+.link-login a:hover{
+    text-decoration: none;
+    color: rgb(255, 255, 255)
+}
+.fas{
+    display: inline-block;
+    color:rgb(173,173,173);
+    margin-right: 8px;
+}
+.line{
+    margin:0 6px;
+    color: rgb(78, 78, 78);
+}
+.link-bar .download-app{
+    position: relative;
+}
+.code{
+    height: 150px;
+    width: 124px;
+    display: none;
+    text-align: center;
+    background-color: #fff;
+    position: absolute;
+    left: -40px;
+    box-shadow: 0 0 4px rgba(0,0,0,.3);
+    line-height: 1;
+    z-index: 999;
+    color: black;
+}
+.link-bar .download-app:hover .code{
+    display: block;
+}
+.code img{
+    width: 80%;
+    margin: 10px;
+}
+.link-bar .arrow{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border:10px solid white;
+    border-top:none;
+    border-color: transparent transparent white;
+    top:-10px;
+    left:0;
+    right: 0;
+    margin: 0 auto;
+}
+.link-cart{
+    float: right;
+    width: 150px;
+    text-align: center;
+    background-color: rgb(65,65,65);
+    position: relative;
+    z-index: 1000;
+}
+.link-cart a:link{
+    text-decoration: none;
+    color: rgb(175,175,175);
+}
+.link-cart a:hover{
+    background-color: rgb(255, 255, 255);
+    color: #ff6700;
+    width: 150px;
+}
+.cart-info{
+    position: absolute;
+    width: 316px;
+    height: 0;
+    overflow: hidden;
+    background-color: white;
+    right: 0;
+    line-height: 100px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    z-index: 999;
+    transition: height 0.2s;
+
+}
+.link-cart:hover .cart-info{
+    height: 100px;
+}
+.header{
+    margin: 0 auto;
+    width: 1225px;
+    height: 100px;
+    line-height: 100px;
+    background-color:white;
+    position: relative;
+}
+.header::before{
+    content:'';
+    display: table;
+}
+.logo{
+    float: left;
+    margin-right: 190px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.logo a{
+    width: 55px;
+    height: 55px;
+    display: block;
+}
+.top-nav{
+    float: left;
+    margin-right: 90px;
+}
+.top-nav li{
+    float: left;
+    margin-right: 20px;
+}
+.top-nav li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+.top-nav li a:hover{
+    color: rgb(254,125,8);
+}
+.hide-list{
+    width:100%;
+    height:0px;
+    background-color: chartreuse;
+    position: absolute;
+    top:100px;
+}
+.top-nav:hover .hide-list,
+.hide-list:hover{
+    height:210px;
+}
+.body-nav{
+    margin: 0 auto;
+    width: 1225px;
+}
+.body-nav .left-nav{
+    float: left;
+    width: 235px;
+    height: 450px;
+    background-color:rgb(148, 102, 148);
+    padding-top: 20px;
+}
+.body-nav .left-nav li{
+    height: 40px;
+}
+.body-nav .left-nav li:hover{
+    background-color: rgb(254,102,8);
+}
+.body-nav .left-nav a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    line-height: 40px;
+}
+.body-nav .left-nav a:hover{
+    text-decoration: none;
+}
+.body-nav .left-nav li a::after{
+    content: '\f105';
+    font-size: 20px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    float: right;
+    margin-right: 30px;
+}
+.search{
+    margin-top: 24px;
+}
+.searchBox{
+    display: block;
+    height: 45px;
+}

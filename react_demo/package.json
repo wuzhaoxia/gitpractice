@@ -1,0 +1,43 @@
+{
+  "name": "react_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^4.3.0",
+    "less": "^3.12.2",
+    "less-loader": "^7.0.1",
+    "style-loader": "^1.2.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/eslint-parser": "^7.11.5",
+    "clean-webpack-plugin": "^3.0.0",
+    "eslint-loader": "^4.0.2"
+  },
+  "eslintConfig": {
+    "parserOption": {
+      "ecmaVersion": 6,
+      "sourceType": "module"
+    },
+    "env": {
+      "browser": true,
+      "node": true
+    },
+    "globals": {
+      "$": "readonly"
+    },
+    "rules": {
+      "no-console": 0,
+      "eqeqeq": 2,
+      "no-alert": 0
+    },
+    "extends": "eslint:recommended"
+  }
+}

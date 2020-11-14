@@ -1,0 +1,8 @@
+<!--pages/picture/picture.wxml-->
+<view class="joke">
+  <view>笑话</view>
+  <image src="/pages/image/微信图片_20200525152159.jpg"></image>
+</view>
+<view class="joke">
+  <view>笑话</view>
+</view>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="95f7bd5d-e7c1-4c65-b4ea-77d1c5a3e058" name="Default Changelist" comment="个人博客第二天第一次提交">
+      <change afterPath="$PROJECT_DIR$/blog/model/connect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/model/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/myadmin/article-edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/myadmin/article.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/myadmin/css/user.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/myadmin/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/myadmin/user-edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/myadmin/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/myhome/default.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/route/myadmin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/route/myhome.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/views/admin/common/aside.art" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/views/admin/common/header.art" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/views/admin/common/layout.art" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/blog/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/route/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog/route/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/route/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog/route/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react_demo/react_practice" beforeDir="false" afterPath="$PROJECT_DIR$/react_demo/react_practice" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react_demo/react_practice/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/react_demo/react_practice/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react_demo/react_practice/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react_demo/react_practice/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react_demo/react_practice/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react_demo/react_practice/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react_demo/react_practice/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react_demo/react_practice/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_demo/react_practice/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react_demo/react_practice/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react_demo/react_practice/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react_demo/react_practice/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_demo/react_practice/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react_demo/react_practice/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react_demo/react_practice/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react_demo/react_practice/src/setupTests.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Less File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kH28xrAo16mea2ovQBSWDbOTyV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="Less" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\桌面\gitPractice\blog\public\myadmin\css" />
+      <recent name="F:\桌面\gitPractice\blog\public" />
+      <recent name="F:\桌面\gitPractice\blog\public\static\home\css" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/blog/app.js" working-dir="$PROJECT_DIR$/blog">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.app.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="95f7bd5d-e7c1-4c65-b4ea-77d1c5a3e058" name="Default Changelist" comment="" />
+      <created>1605343040892</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605343040892</updated>
+      <workItem from="1605343042015" duration="16479000" />
+    </task>
+    <task id="LOCAL-00001" summary="个人博客第二天第一次提交">
+      <created>1605407322857</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605407322857</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="个人博客第二天第一次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="个人博客第二天第一次提交" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1071" y="316" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605405245438">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1071" y="316" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605405245438" />
+    <state width="989" height="109" key="GridCell.Tab.0.bottom" timestamp="1605407220868">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="989" height="109" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605407220868" />
+    <state width="989" height="109" key="GridCell.Tab.0.center" timestamp="1605407220868">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="989" height="109" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605407220868" />
+    <state width="989" height="109" key="GridCell.Tab.0.left" timestamp="1605407220868">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="989" height="109" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605407220868" />
+    <state width="989" height="109" key="GridCell.Tab.0.right" timestamp="1605407220868">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="989" height="109" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605407220868" />
+    <state x="836" y="181" key="SettingsEditor" timestamp="1605353501313">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="836" y="181" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605353501313" />
+    <state x="865" y="317" key="Vcs.Push.Dialog.v2" timestamp="1605407321716">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="865" y="317" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605407321716" />
+    <state x="1214" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1605406884380">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1214" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605406884380" />
+  </component>
+</project>

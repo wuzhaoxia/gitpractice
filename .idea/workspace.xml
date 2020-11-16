@@ -19,9 +19,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95f7bd5d-e7c1-4c65-b4ea-77d1c5a3e058" name="Default Changelist" comment="个人博客第二天第一次提交">
+    <list default="true" id="95f7bd5d-e7c1-4c65-b4ea-77d1c5a3e058" name="Default Changelist" comment="个人博客第三天第一次提交">
+      <change afterPath="$PROJECT_DIR$/blog/joi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/middleware/loginGuard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/route/admin/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/route/admin/user-edit-fn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/route/admin/user-edit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toutiao/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/route/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog/route/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/views/admin/common/header.art" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views/admin/common/header.art" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/views/admin/user-edit.art" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views/admin/user-edit.art" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/views/admin/user.art" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views/admin/user.art" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +61,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/blog - 副本" />
     <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -58,18 +70,23 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\桌面\gitPractice\toutiao\public" />
       <recent name="F:\桌面\gitPractice\blog\public\myadmin\css" />
       <recent name="F:\桌面\gitPractice\blog\public" />
       <recent name="F:\桌面\gitPractice\blog\public\static\home\css" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.app.js">
     <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/blog/app.js" working-dir="$PROJECT_DIR$/blog">
+      <method v="2" />
+    </configuration>
+    <configuration name="joi.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/blog/joi.js" working-dir="$PROJECT_DIR$/blog">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.app.js" />
+        <item itemvalue="Node.js.joi.js" />
       </list>
     </recent_temporary>
   </component>
@@ -81,7 +98,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605343040892</updated>
-      <workItem from="1605343042015" duration="31216000" />
+      <workItem from="1605343042015" duration="50020000" />
     </task>
     <task id="LOCAL-00001" summary="个人博客第二天第一次提交">
       <created>1605407322857</created>
@@ -90,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605407322857</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="个人博客第三天第一次提交">
+      <created>1605491110406</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605491110406</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,37 +133,42 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="个人博客第二天第一次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="个人博客第二天第一次提交" />
+    <MESSAGE value="个人博客第三天第一次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="个人博客第三天第一次提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1071" y="316" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605405245438">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1071" y="316" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605405245438" />
-    <state width="1054" height="248" key="GridCell.Tab.0.bottom" timestamp="1605447567853">
+    <state x="768" y="240" key="FileChooserDialogImpl" timestamp="1605569595373">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1054" height="248" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605447567853" />
-    <state width="1054" height="248" key="GridCell.Tab.0.center" timestamp="1605447567853">
+    <state x="768" y="240" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605569595373" />
+    <state width="838" height="239" key="GridCell.Tab.0.bottom" timestamp="1605536178493">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1054" height="248" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605447567853" />
-    <state width="1054" height="248" key="GridCell.Tab.0.left" timestamp="1605447567852">
+    <state width="838" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605536178493" />
+    <state width="838" height="239" key="GridCell.Tab.0.center" timestamp="1605536178492">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1054" height="248" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605447567852" />
-    <state width="1054" height="248" key="GridCell.Tab.0.right" timestamp="1605447567853">
+    <state width="838" height="239" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605536178492" />
+    <state width="838" height="239" key="GridCell.Tab.0.left" timestamp="1605536178492">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1054" height="248" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605447567853" />
-    <state x="795" y="197" key="SettingsEditor" timestamp="1605490930888">
+    <state width="838" height="239" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605536178492" />
+    <state width="838" height="239" key="GridCell.Tab.0.right" timestamp="1605536178492">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="795" y="197" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605490930888" />
-    <state x="865" y="317" key="Vcs.Push.Dialog.v2" timestamp="1605407321716">
+    <state width="838" height="239" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605536178492" />
+    <state x="616" y="230" key="SettingsEditor" timestamp="1605491050878">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="865" y="317" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605407321716" />
+    <state x="616" y="230" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605491050878" />
+    <state x="865" y="317" key="Vcs.Push.Dialog.v2" timestamp="1605491630576">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="865" y="317" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605491630576" />
     <state x="1214" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1605406884380">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

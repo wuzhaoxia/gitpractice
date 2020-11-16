@@ -4,10 +4,12 @@ const express = require('express');
 const path = require('path');
 //引入body-parser模块，用来处理post请求
 const bodyPaser = require('body-parser')
+const session = require('express-session')
 //创建网站服务器
 const app = express();
 //数据库连接
 require('./model/connect');
+// app.use(session({secret:'secret'}))
 // require('./model/user');
 //处理post请求参数
 app.use(bodyPaser.urlencoded({extended:false}))
@@ -29,7 +31,8 @@ const myadmin = require('./route/myadmin')
 
 //为路由匹配模块
 app.use('/home', home);
-app.use('/admin', admin);
+app.use('/admin',admin);
+// app.use('/admin',require('./middleware/loginGuard'));
 app.use('/myhome', myhome);
 app.use('/myadmin', myadmin);
 
@@ -37,23 +40,10 @@ app.use('/myadmin', myadmin);
 app.listen(8080);
 console.log('网站服务器启动成功')
 
-// C:\Users\wuzhaoxia\.windows-build-tools\python27;
-// C:\Users\wuzhaoxia\AppData\Local\Programs\Python\Python37\Scripts;
-// C:\Users\wuzhaoxia\AppData\Local\Programs\Python\Python37;
-// C:\Users\wuzhaoxia\AppData\Roaming\npm;D:\Microsoft VS Code\bin
-// D:\xshell\;
-// %SystemRoot%\system32;
-// %SystemRoot%;
-// %SystemRoot%\System32\Wbem;
-// %SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;
-// C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;
-// C:\Program Files\Common Files\Autodesk Shared\;
-// D:\qt\Tools\mingw730_64\bin;
-// C:\Users\wuzhaoxia\AppData\Local\Programs\Python\Python37;
-// %MYSQL_HOME%\bin;
-// D:\Node.js\;%C:\Users\wuzhaoxia\AppData\Local\Programs\Python\Python37\Scripts;
-// C:\Program Files (x86)\Google\Chrome\Application\;
-// C:\Program Files\Git\cmd;
-// C:\Program Files\MongoDB\Server\3.2\bin;
-// C:\Program Files\TortoiseSVN\bin;
-// C:\Program Files\VisualSVN Server\bin
+
+
+
+
+
+
+
